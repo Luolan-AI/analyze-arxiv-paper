@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Paper Deep Analysis"
+  short_description: "Deep AI paper analysis with formulas and reproduction guidance"
+  default_prompt: "Use $analyze-arxiv-paper to analyze my paper in English, or in the language I specify."
