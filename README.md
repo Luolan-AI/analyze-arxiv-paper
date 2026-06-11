@@ -40,7 +40,21 @@ cp -R analyze-arxiv-paper/analyze-arxiv-paper ~/.agents/skills/
 
 ### 使用
 
-上传论文 PDF，然后输入：
+通常不需要每次完整输入 Skill 名称。上传论文 PDF 后，直接输入：
+
+```text
+用中文分析这篇论文
+```
+
+也可以更简短：
+
+```text
+分析这篇论文
+```
+
+Codex 会根据论文分析请求自动匹配此 Skill。未指定语言时默认使用英文。
+
+只有自动匹配失败时，才需要显式调用：
 
 ```text
 使用 $analyze-arxiv-paper，用中文深入分析这篇论文。
@@ -103,7 +117,21 @@ Restart Codex if the skill does not appear immediately.
 
 ### Use
 
-Upload a paper PDF and ask:
+You normally do not need to type the full skill name every time. After uploading a paper PDF, simply ask:
+
+```text
+Analyze this paper in Chinese.
+```
+
+Or even:
+
+```text
+Analyze this paper.
+```
+
+Codex can automatically match paper-analysis requests to this skill. English is used by default when no language is specified.
+
+Use the explicit invocation only if automatic matching fails:
 
 ```text
 Use $analyze-arxiv-paper to analyze this paper.
